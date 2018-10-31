@@ -74,6 +74,17 @@ O protocolo [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) é utilizado
     - Coordenada X, coordenada Y, intensidade e angulo de cada ponto que detectou movimento significativo.
 - "/quit":
     - Mensagem de finalização de análise para o servidor.
+    
+### Argumentos
+
+- ***--verbose*** Indica se as informações devem ser exibidas
+- ***-v*** ou ***--video*** Diretório do vídeo
+- ***-c*** ou ***--camera*** Identificador da câmera
+- ***-s*** ou ***--span*** Indica se deve haver uma pequena distância entre os pontos
+- ***-max*** ou ***--max-threshold*** Indica o limite máximo de envio
+- ***-min*** ou ***--min-threshold*** Indica o limite mínimo de envio
+- ***-i*** ou ***--ip*** IP do Servidor OSC
+- ***-p*** ou ***--port*** Porta do Servidor OSC
 
 ### Créditos
 - [Caio Henrique Segawa Tonetti](https://github.com/LionsWrath)
